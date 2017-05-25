@@ -6,7 +6,7 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+          rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Hello World | Brian Francis De Guzman</title>
 
@@ -14,21 +14,32 @@
 
 <body>
 
-<nav class="default" role="navigation">
+<!-- <nav class="default" role="navigation">
     <div class="nav-wrapper">
-        <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large">
+        <a href="#" data-activates="dropdownMenu" class="button-collapse show-on-large right dropdown-button">
             <i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
+         <ul class="right hide-on-med-and-down">
             <li><a href="#">Login</a></li>
             <li><a class="waves-effect red waves-light btn">Sign up</a></li>
         </ul>
+        <ul id='dropdownMenu' class='dropdown-content'>
+            <li><a href="#!">About Me</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Projects</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Contact</a></li>
+        </ul>
     </div>
-</nav>
+</nav> -->
 
 
 <section id="Home">
-    <div>
-        <div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/Background.jpg"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+
             <div>
                 <img src="img/Square.jpg">
                 <div>
@@ -43,9 +54,9 @@
 </section>
 
 <section id="about">
-    <div>
-        <div>
-            <h2>Hello World!</h2>
+    <div class="container">
+        <div class="row">
+            <h2>Hey There!</h2>
         </div>
         <div>
             <p>My name is Brian Francis De Guzman. I'm a 3rd Year Computer Science student at the University at Buffalo.
