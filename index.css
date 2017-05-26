@@ -1,5 +1,11 @@
+html {
+  font-family: "Roboto", sans-serif; }
+
 nav {
-  background-color: black !important; }
+  background-color: white !important; }
+
+.parallax-container {
+  height: 380px; }
 
 #introDiv {
   margin: 0 auto;
@@ -11,5 +17,8 @@ nav {
 
 #picRadius {
   border-radius: 50px; }
+
+.social-link {
+  fill: white; }
 
 /*# sourceMappingURL=index.css.map */
