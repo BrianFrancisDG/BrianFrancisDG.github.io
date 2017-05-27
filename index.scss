@@ -2,19 +2,20 @@
   //background-color: blue;
 }
 
-html{
+html {
   font-family: "Roboto", sans-serif;
 }
+
 nav {
-  background-color: white !important;
+  background-color: black !important;
+
 }
 
 .parallax-container {
   height: 380px;
 }
 
-
-#introDiv{
+#introDiv {
   margin: 0 auto;
   text-align: center;
 }
@@ -24,10 +25,19 @@ nav {
   padding-top: 65px;
 }
 
-#picRadius{
+#picRadius {
   border-radius: 50px;
 }
 
-.social-link{
+.social-link {
   fill: white;
+}
+
+#downArrow {
+  font-size: 50px;
+
+}
+
+#downArrow:hover{
+  transform:scale(1.2);
 }

@@ -2,7 +2,7 @@ html {
   font-family: "Roboto", sans-serif; }
 
 nav {
-  background-color: white !important; }
+  background-color: black !important; }
 
 .parallax-container {
   height: 380px; }
@@ -20,5 +20,11 @@ nav {
 
 .social-link {
   fill: white; }
+
+#downArrow {
+  font-size: 50px; }
+
+#downArrow:hover {
+  transform: scale(1.2); }
 
 /*# sourceMappingURL=index.css.map */
