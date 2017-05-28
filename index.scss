@@ -41,3 +41,12 @@ nav {
 #downArrow:hover{
   transform:scale(1.2);
 }
+
+//For Bullet Points
+ul.browser-default {
+  padding-left: 40px;
+}
+ul.browser-default li {
+  list-style-type: inherit;
+  padding-bottom: 5px;
+}

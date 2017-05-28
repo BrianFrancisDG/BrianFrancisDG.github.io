@@ -27,4 +27,11 @@ nav {
 #downArrow:hover {
   transform: scale(1.2); }
 
+ul.browser-default {
+  padding-left: 40px; }
+
+ul.browser-default li {
+  list-style-type: inherit;
+  padding-bottom: 5px; }
+
 /*# sourceMappingURL=index.css.map */
