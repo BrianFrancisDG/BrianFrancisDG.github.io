@@ -34,4 +34,12 @@ ul.browser-default li {
   list-style-type: inherit;
   padding-bottom: 5px; }
 
+.socialIcons {
+  width: 15%; }
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white; }
+
 /*# sourceMappingURL=index.css.map */

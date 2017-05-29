@@ -20,30 +20,17 @@
 
 <body>
 
-<!--<nav class="default" role="navigation">
-    <div class="nav-wrapper">
-        <a href="#" data-activates="dropdownMenu" class="button-collapse show-on-large center dropdown-button right">
-            <i class="material-icons white-text">menu</i></a>
-        <ul id='dropdownMenu' class='dropdown-content'>
-            <li><a href="#about">About Me</a></li>
-            <li class="divider"></li>
-            <li><a href="#projectsParallax">Projects</a></li>
-            <li class="divider"></li>
-            <li><a href="#contactParallax">Contact</a></li>
-        </ul>
-    </div>
-</nav>-->
 
 <div class="fixed-action-btn toolbar">
     <a class="btn-floating btn-large red">
-      <i class="large material-icons">menu</i>
+        <i class="large material-icons">menu</i>
     </a>
     <ul>
-      <li class="waves-effect waves-light"><a href="#about">About Me</a></li>
-      <li class="waves-effect waves-light"><a href="#projectsParallax">Projects</a></li>
-      <li class="waves-effect waves-light"><a href="#contactParallax">Contact</a></li>
+        <li class="waves-effect waves-light"><a href="#about">About Me</a></li>
+        <li class="waves-effect waves-light"><a href="#projectsParallax">Projects</a></li>
+        <li class="waves-effect waves-light"><a href="#contactParallax">Contact</a></li>
     </ul>
-  </div>
+</div>
 
 
 <section id="Home">
@@ -69,10 +56,10 @@
     </div>
 </section>
 
-<br>
-<br>
 
 <section id="about">
+    <br>
+    <br>
     <div class="container">
         <div class="row">
             <div class="left col s12 m3" id="pic">
@@ -387,13 +374,13 @@
             <h3>Social Links</h3>
             <div class="col s12 m6">
                 <a href="https://www.linkedin.com/in/brian-francis-de-guzman-1b5290138/">
-                    <img style="width: 15%;" src="img/linkedin-box.svg">
+                    <img class="socialIcons" src="img/linkedin-box.svg">
                 </a>
                 <a href="https://github.com/BrianFrancisDG">
-                    <img style="width: 15%;" src="img/github-box.svg">
+                    <img class="socialIcons" src="img/github-box.svg">
                 </a>
                 <!-- <a href="https://www.facebook.com/brianfrancis.deguzman">
-                    <img style="width: 15%;" src="img/facebook-box.svg">
+                    <img class = "socialIcons" src="img/facebook-box.svg">
                 </a>-->
             </div>
             <div class="col s12 l6">
@@ -413,28 +400,15 @@
 <br>
 <br>
 
+<footer>
+    <p>&copy; Brian Francis De Guzman</p>
+</footer>
+
 </body>
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<!-- SMOOTH SCROLL -->
-<script>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
-<!-- End of SMOOTH SCROLL -->
+
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 <script src="index.js"></script>
