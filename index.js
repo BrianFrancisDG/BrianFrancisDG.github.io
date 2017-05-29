@@ -30,3 +30,7 @@ $(document).ready(function () {
     $('.parallax').parallax();
 });
 
+// Carousel initialization
+$(document).ready(function(){
+      $('.carousel').carousel();
+    });
