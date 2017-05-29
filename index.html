@@ -20,19 +20,30 @@
 
 <body>
 
-<nav class="default" role="navigation">
+<!--<nav class="default" role="navigation">
     <div class="nav-wrapper">
         <a href="#" data-activates="dropdownMenu" class="button-collapse show-on-large center dropdown-button right">
             <i class="material-icons white-text">menu</i></a>
         <ul id='dropdownMenu' class='dropdown-content'>
             <li><a href="#about">About Me</a></li>
             <li class="divider"></li>
-            <li><a href="#!">Projects</a></li>
+            <li><a href="#projectsParallax">Projects</a></li>
             <li class="divider"></li>
-            <li><a href="#!">Contact</a></li>
+            <li><a href="#contactParallax">Contact</a></li>
         </ul>
     </div>
-</nav>
+</nav>-->
+
+<div class="fixed-action-btn toolbar">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">menu</i>
+    </a>
+    <ul>
+      <li class="waves-effect waves-light"><a href="#about">About Me</a></li>
+      <li class="waves-effect waves-light"><a href="#projectsParallax">Projects</a></li>
+      <li class="waves-effect waves-light"><a href="#contactParallax">Contact</a></li>
+    </ul>
+  </div>
 
 
 <section id="Home">
@@ -406,6 +417,24 @@
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- SMOOTH SCROLL -->
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 <script src="index.js"></script>
