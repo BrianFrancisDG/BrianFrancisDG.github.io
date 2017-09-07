@@ -1,8 +1,13 @@
 html {
-  font-family: "Roboto", sans-serif; }
+  font-family: Avenir, sans-serif; }
+
+#nameRow {
+  font-family: Futura; }
 
 nav {
   background-color: black !important; }
+  nav a {
+    background-color: black !important; }
 
 .parallax-container {
   height: 380px; }

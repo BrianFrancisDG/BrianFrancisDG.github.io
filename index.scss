@@ -3,11 +3,17 @@
 }
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: Avenir, sans-serif;
 }
 
+#nameRow {
+  font-family: Futura;
+}
 nav {
   background-color: black !important;
+  a{
+    background-color: black !important;
+  }
 
 }
 
