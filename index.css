@@ -3,6 +3,8 @@ html {
 
 nav {
   background-color: black !important; }
+  nav a {
+    background-color: black !important; }
 
 .parallax-container {
   height: 380px; }
